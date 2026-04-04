@@ -12,3 +12,6 @@ open for freelance work (minimum contract length is one month): start from USD 2
 
 => Please help us grow by sharing this app to your friends, family, and colleagues.
 => Please support us by give GitHub Star to this project: https://github.com/go2ismail/Asp.Net-Core-Inventory-Order-Management-System
+
+
+ commeneted developer.txt for cycle-9
