@@ -2,6 +2,9 @@ using ASPNET.BackEnd;
 using ASPNET.BackEnd.Common.Middlewares;
 using ASPNET.FrontEnd;
 
+// Entry point for the ASP.NET Core Razor Pages application.
+// Configures services, middleware, and request routing for the web app.
+
 var builder = WebApplication.CreateBuilder(args);
 
 //>>> Create Logs folder for Serilog
