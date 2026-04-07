@@ -17,6 +17,10 @@ public class CustomerCategorySeeder
         _unitOfWork = unitOfWork;
     }
 
+
+    // added a comment  543456546456
+
+
     public async Task GenerateDataAsync()
     {
         var customerCategories = new List<CustomerCategory>
