@@ -5,6 +5,8 @@ using MimeKit;
 
 namespace Infrastructure.EmailManager;
 
+// correct and verify before
+
 
 public class EmailService : IEmailService
 {
