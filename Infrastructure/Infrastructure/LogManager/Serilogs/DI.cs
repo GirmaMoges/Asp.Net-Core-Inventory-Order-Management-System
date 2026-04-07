@@ -7,6 +7,11 @@ namespace Infrastructure.LogManager.Serilogs;
 
 public static class DI
 {
+
+    // added a comment 101
+
+
+
     public static IServiceCollection RegisterSerilog(this IServiceCollection services, IConfiguration configuration)
     {
         Log.Logger = new LoggerConfiguration()
