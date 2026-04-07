@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Infrastructure.EmailManager;
 
+//  comment chnage 
 public static class DI
 {
     public static IServiceCollection RegisterEmailManager(this IServiceCollection services, IConfiguration configuration)
