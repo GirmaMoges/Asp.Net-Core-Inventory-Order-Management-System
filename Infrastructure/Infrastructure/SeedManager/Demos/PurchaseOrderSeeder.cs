@@ -7,6 +7,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.SeedManager.Demos;
 
+//purchase order commented
+//GIRMA
+//This class, `PurchaseOrderSeeder`, is responsible for generating sample purchase order data for a specified date range. It creates purchase orders with random vendors, taxes, and products, and then saves them to the database. The seeder uses various services and repositories to manage the creation and persistence of purchase orders and their items. After creating each purchase order, it recalculates the order totals using the `PurchaseOrderService`.
+
 public class PurchaseOrderSeeder
 {
     private readonly PurchaseOrderService _purchaseOrderService;
