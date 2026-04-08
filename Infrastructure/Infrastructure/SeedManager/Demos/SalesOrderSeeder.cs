@@ -7,6 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.SeedManager.Demos;
 
+
+// This class, `SalesOrderSeeder`, is responsible for generating sample sales order data for a specified date range. It creates sales orders with random customers, taxes, and products, and then saves them to the database. The seeder uses various services and repositories to manage the creation and persistence of sales orders and their items. After creating each sales order, it recalculates the order totals using the `SalesOrderService`.
+
 public class SalesOrderSeeder
 {
     private readonly SalesOrderService _salesOrderService;
